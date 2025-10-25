@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
 
 st.set_page_config(page_title="Streamlit Chat", page_icon="💬")
-st.title("Chatbot")
+st.title("AI面接")
 
 if "setup_complete" not in st.session_state:
     st.session_state.setup_complete = False
